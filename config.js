@@ -34,7 +34,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '0.0.0.0',
+            host: 'ec2-54-200-210-157.us-west-2.compute.amazonaws.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '80'
         }
@@ -55,7 +55,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '0.0.0.0',
+            host: 'ec2-54-200-210-157.us-west-2.compute.amazonaws.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '80'
         }
@@ -67,7 +67,7 @@ config = {
     // Used when developing Ghost to run tests and check the health of Ghost
     // Uses a different port number
     testing: {
-        url: 'http://0.0.0.0:2369',
+        url: 'http://ec2-54-200-210-157.us-west-2.compute.amazonaws.com:2369',
         database: {
             client: 'sqlite3',
             connection: {
@@ -75,7 +75,7 @@ config = {
             }
         },
         server: {
-            host: '0.0.0.0',
+            host: 'ec2-54-200-210-157.us-west-2.compute.amazonaws.com',
             port: '80'
         }
     },
