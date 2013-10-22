@@ -353,6 +353,33 @@ table.plain {
 
 
 /* ==========================================================================
+   3.5 Header
+   ========================================================================== */
+
+#top-nav {
+    color: #50585D;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center; 
+    min-height: 3em;
+    padding-top: 22px;
+}
+
+#top-nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#top-nav-list li { 
+    display: inline; 
+}
+
+#top-nav-list li a { 
+    text-decoration: none; 
+    padding: 0em 4em;
+}
+
+/* ==========================================================================
    4. General - The main styles for the the theme
    ========================================================================== */
 

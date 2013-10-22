@@ -4,6 +4,24 @@
     the {body} of the default.hbs template, which contains our header/footer. }}
 
 {{! The big featured header on the homepage, with the site logo and description }}
+
+
+<section id="top-nav">
+    <nav>
+        <ul id="top-nav-list">
+            <li>
+                <a href="http://www.whoscored.com/">WhoScored</a>
+            </li>
+            <li>
+                <a href="http://ec2-54-200-210-157.us-west-2.compute.amazonaws.com/">Blog</a>
+            </li>
+            <li>
+                <a href="http://ec2-54-200-212-60.us-west-2.compute.amazonaws.com/">Tech Blog</a>
+            </li>
+        </ul>
+    </nav>
+</section>
+
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="vertical">
         <div id="site-head-content" class="inner">
